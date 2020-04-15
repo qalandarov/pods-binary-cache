@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.1.0)
   - ConfigSDK (0.0.1):
     - ProtocolBuffers-Swift
     - SQLite.swift
@@ -13,12 +14,14 @@ PODS:
   - SQLite.swift/standard (0.12.2)
 
 DEPENDENCIES:
+  - Alamofire
   - ConfigSDK (from `DevPods/ConfigSDK`)
   - ConfigService (from `DevPods/ConfigService`)
   - MBProgressHUD (= 1.2.0)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - MBProgressHUD
     - ProtocolBuffers-Swift
     - RxSwift
@@ -31,6 +34,7 @@ EXTERNAL SOURCES:
     :path: DevPods/ConfigService
 
 SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
   ConfigSDK: 31ab2bfd485b2e903de7917c3d1702460d5d47cb
   ConfigService: cae3fbae5b4bda148f481de790c4da1823443178
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
@@ -38,6 +42,6 @@ SPEC CHECKSUMS:
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
 
-PODFILE CHECKSUM: 3b2eb39ee3f29024ec39c939d9ca8caeef8fee40
+PODFILE CHECKSUM: b9f4860abf828c8c8003342b87c893ac31a36961
 
 COCOAPODS: 1.9.1
