@@ -2,32 +2,42 @@ PODS:
   - ConfigSDK (0.0.1):
     - ProtocolBuffers-Swift
     - SQLite.swift
+  - ConfigService (0.0.1):
+    - ConfigSDK
+    - RxSwift
   - MBProgressHUD (1.2.0)
   - ProtocolBuffers-Swift (4.0.6)
+  - RxSwift (5.1.1)
   - SQLite.swift (0.12.2):
     - SQLite.swift/standard (= 0.12.2)
   - SQLite.swift/standard (0.12.2)
 
 DEPENDENCIES:
   - ConfigSDK (from `DevPods/ConfigSDK`)
+  - ConfigService (from `DevPods/ConfigService`)
   - MBProgressHUD (= 1.2.0)
 
 SPEC REPOS:
   trunk:
     - MBProgressHUD
     - ProtocolBuffers-Swift
+    - RxSwift
     - SQLite.swift
 
 EXTERNAL SOURCES:
   ConfigSDK:
     :path: DevPods/ConfigSDK
+  ConfigService:
+    :path: DevPods/ConfigService
 
 SPEC CHECKSUMS:
   ConfigSDK: 31ab2bfd485b2e903de7917c3d1702460d5d47cb
+  ConfigService: cae3fbae5b4bda148f481de790c4da1823443178
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   ProtocolBuffers-Swift: 09b5cfcc641ab512d6aaa1d2cc3879a40432052c
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
 
-PODFILE CHECKSUM: 01947549ac2c37620f9c73e834880e553b12edc2
+PODFILE CHECKSUM: 3b2eb39ee3f29024ec39c939d9ca8caeef8fee40
 
 COCOAPODS: 1.9.1
