@@ -1,16 +1,33 @@
 PODS:
+  - ConfigSDK (0.0.1):
+    - ProtocolBuffers-Swift
+    - SQLite.swift
   - MBProgressHUD (1.2.0)
+  - ProtocolBuffers-Swift (4.0.6)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
 
 DEPENDENCIES:
+  - ConfigSDK (from `DevPods/ConfigSDK`)
   - MBProgressHUD (= 1.2.0)
 
 SPEC REPOS:
   trunk:
     - MBProgressHUD
+    - ProtocolBuffers-Swift
+    - SQLite.swift
+
+EXTERNAL SOURCES:
+  ConfigSDK:
+    :path: DevPods/ConfigSDK
 
 SPEC CHECKSUMS:
+  ConfigSDK: 31ab2bfd485b2e903de7917c3d1702460d5d47cb
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  ProtocolBuffers-Swift: 09b5cfcc641ab512d6aaa1d2cc3879a40432052c
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
 
-PODFILE CHECKSUM: 371ef6c85528d8f4bb7c330876872603e15f3fba
+PODFILE CHECKSUM: 8d8c28449e2ec0032b2a424d25507d53288d351e
 
 COCOAPODS: 1.9.1
